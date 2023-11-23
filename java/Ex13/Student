@@ -1,0 +1,23 @@
+package org.javaro.lecture;
+public class Student{
+	private String name;
+	private String studNumber;
+	public Student(String studNumber) {
+		this.studNumber = studNumber;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getStudNumber() {
+		return studNumber;
+	}
+	public void setStudNumber(String studNumber) {
+		this.studNumber = studNumber;
+	}
+	public String toString() {
+		return "학먼 = "+this.getStudNumber()+", 학생이름 = "+this.getName();
+	}
+}
