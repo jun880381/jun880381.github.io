@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 public class MyMenu {
 	public static void main(String[] args) {
+		System.out.println("20212091 -김준태-");
 		BookStore testLibrary = new BookStore("도서관리 시스템");
 		int menu;
 		boolean check = true;
